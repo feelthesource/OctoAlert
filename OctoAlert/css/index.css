@@ -1,0 +1,18 @@
+﻿body { 
+    position:relative 
+}
+div.imageContainer {
+    min-height: 10em;
+    display: table-cell;
+    vertical-align: middle }
+img {
+    width:100%;
+    max-width:500px; 
+    height: auto;
+}
+.centered {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
